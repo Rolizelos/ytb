@@ -42,7 +42,7 @@ dependencies:
   simple-youtube-api: 5.2.1
   speedtest-net: 1.6.0
   steam-provider: 0.3.2
-  superagent: 5.1.2
+  superagent: 5.1.3
   svjsl: 1.8.1
   tcmb-doviz: 1.0.5
   tempy: 0.3.0
@@ -3610,7 +3610,7 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-PFMZQukIwml8DsNEhYwobHygpgo=
-  /superagent/5.1.2:
+  /superagent/5.1.3:
     dependencies:
       component-emitter: 1.3.0
       cookiejar: 2.1.2
@@ -3627,7 +3627,7 @@ packages:
     engines:
       node: '>= 7.0.0'
     resolution:
-      integrity: sha512-VwPCbi9H02qDtTbdY+e3+cK5XR0YHsJy9hmeCOXLQ8ezjq8+S1Bs4MdNRmpmf2QjDBetD7drG7/nEta7E3E6Sg==
+      integrity: sha512-2bno1Nb4uvZPECTJ7NDYlae6Q8LLQoZZZ9Vumd346jU1UGVkNC/lQI42jHwtrqVoepyt0QxNKFty01IRKgD4CA==
   /supports-color/2.0.0:
     dev: false
     engines:
@@ -4160,7 +4160,7 @@ specifiers:
   simple-youtube-api: ^5.2.1
   speedtest-net: ^1.6.0
   steam-provider: ^0.3.2
-  superagent: ^5.1.2
+  superagent: ^5.1.3
   svjsl: ^1.8.1
   tcmb-doviz: ^1.0.5
   tempy: ^0.3.0
