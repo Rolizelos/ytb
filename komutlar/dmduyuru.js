@@ -7,7 +7,7 @@ exports.run = (client, message, args) => {
     .setColor(0x2488E7)
     .setTimestamp()
     .setAuthor(message.author.username, message.author.avatarURL)
-    .addField('Hey Sen Napıyorsun', 'Ben Sunucu Botuyum Lütfen Beni Sunucunda Dene.')
+    .addField('Sen Napıyorsun', 'Bu komutu yetkin olmadan kullanamazsın.')
     return message.author.sendEmbed(ozelmesajuyari); }
 
   let mesaj = args.slice(0).join(' ');
@@ -25,7 +25,7 @@ if (mesaj.length < 1) return message.channel.send('Birşey Yazmalısınız');
 u.sendEmbed(mesajat)
 })
 
-message.channel.send(`:white_check_mark: Mesaj basariyla **` + client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() + `** kullanıcıya gonderildi.`);
+message.channel.send(`:white_check_mark: Mesaj basariyla **` + client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() + `** kullanıcıya gönderildi.`);
 
 };
 

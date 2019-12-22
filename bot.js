@@ -26,7 +26,7 @@ app.get("/", (request, response) => {
 });
 app.listen(8000);
 setInterval(() => {
-  http.get(`http://bosproje.glitch.me/`);
+  http.get(`http://projeadın.glitch.me/`);
 }, 280000)
 //-----------------------------------------------\\
 
