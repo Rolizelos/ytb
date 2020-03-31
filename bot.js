@@ -21,12 +21,12 @@ const http = require('http');
 const express = require('express');
 const app = express();
 app.get("/", (request, response) => {
-  console.log("ArdaDemr | Hostlandı");
+  console.log("HOST");
   response.sendStatus(200);
 });
 app.listen(8000);
 setInterval(() => {
-  http.get(`http://projeadın.glitch.me/`);
+  http.get(`http://.glitch.me/`);
 }, 280000)
 //-----------------------------------------------\\
 
@@ -134,4 +134,4 @@ client.on('error', e => {
 
 client.login(ayarlar.token);
 
-//-----------------------KOMUTLAR-----------------------\\
+//xxxxxxxxxxxxxkomutlarxxxxxxxxxxxxxxxxxxxxxxxxxxxx
