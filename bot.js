@@ -21,12 +21,12 @@ const http = require('http');
 const express = require('express');
 const app = express();
 app.get("/", (request, response) => {
-  console.log("HOST");
+  console.log("HOSTLANDI");
   response.sendStatus(200);
 });
 app.listen(8000);
 setInterval(() => {
-  http.get(`http://.glitch.me/`);
+  http.get(`https://nothing--.glitch.me/`);
 }, 280000)
 //-----------------------------------------------\\
 

@@ -1,0 +1,1 @@
+Boş Altyapı işte aq

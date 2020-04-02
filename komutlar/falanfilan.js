@@ -8,9 +8,9 @@ if (mesaj.length < 1) return message.reply('Yazmam için herhangi bir şey yazma
 };
 
 exports.conf = {
-  enabled: true,
+  enabled: true, //false komutu kapatır
   guildOnly: false,
-  aliases: ["yazdır"],
+  aliases: ["yazdır"],//alternatif
   permLevel: 0
 };
 
