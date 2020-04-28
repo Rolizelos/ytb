@@ -134,4 +134,4 @@ client.on('error', e => {
 
 client.login(ayarlar.token);
 
-//xxxxxxxxxxxxxkomutlarxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+///==========komutlar==========\\\
