@@ -8,3 +8,10 @@ ayarlar.json'u doldurursanız bot aktif olacaktır
 kokut eklerken *komutlar/komutismi.js* yazarak yeni dosya oluşturun
 -----------------------------------------------------------------
 
+
+
+
+
+  <img src="https://i.imgur.com/GmlIcAm.gif">
+
+
