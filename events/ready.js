@@ -32,7 +32,7 @@ module.exports = client => {
     )}] Oyun ismi ayarlandı!`
   );
   console.log(
-    `CODE Hub | [${moment().format("YYYY-MM-DD HH:mm:ss")}] BOT: Şu an ` +
+    ` [${moment().format("YYYY-MM-DD HH:mm:ss")}] BOT: Şu an ` +
       client.channels.size +
       ` adet kanala, ` +
       client.guilds.size +
