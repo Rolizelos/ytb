@@ -22,14 +22,12 @@ module.exports = client => {
   //online = çevrimiçi
   client.user.setActivity("Bla Bla", {
     type: "LISTENING"
-  //LISTENING = DİNLİYOR
-  //WATCHING = İZLİYOR
-  //PLAYING = OYNUYOR 
-  }); 
+    //LISTENING = DİNLİYOR
+    //WATCHING = İZLİYOR
+    //PLAYING = OYNUYOR
+  });
   console.log(
-    ` [${moment().format(
-      "YYYY-MM-DD HH:mm:ss"
-    )}] Oyun ismi ayarlandı!`
+    ` [${moment().format("YYYY-MM-DD HH:mm:ss")}] Oyun ismi ayarlandı!`
   );
   console.log(
     ` [${moment().format("YYYY-MM-DD HH:mm:ss")}] BOT: Şu an ` +
@@ -41,11 +39,3 @@ module.exports = client => {
       ` kullanıcıya hizmet veriliyor!`
   );
 };
-
-
-
-
-
-
-
-
