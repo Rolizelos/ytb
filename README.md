@@ -5,7 +5,7 @@
 
 ayarlar.json'u doldurursanız bot aktif olacaktır
 ------------------------------------------------
-kokut eklerken *komutlar/komutismi.js* yazarak yeni dosya oluşturun
+komut eklerken *komutlar/komutismi.js* yazarak yeni dosya oluşturun
 -----------------------------------------------------------------
 [Discord Botum](https://bit.ly/2yr0Mkl "Shuka")
 
