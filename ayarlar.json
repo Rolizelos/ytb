@@ -2,6 +2,7 @@
   "prefix": "PREFİX",
   "sahip": "KENDİ İD",
   "botid": "BOT İD",
-  "renk": "",
+  "renk": "#ff9900",
+  "ytapi": "",
   "token": "BOT TOKEN"
 }

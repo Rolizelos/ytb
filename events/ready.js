@@ -17,14 +17,19 @@ module.exports = client => {
     } ismi ile giriş yapıldı!`
   );
   client.user.setStatus("dnd");
-  //idle = boşta
-  //dnd = rahatsız etmeyin
-  //online = çevrimiçi
+/*  
+  idle = boşta
+  dnd = rahatsız etmeyin
+  online = çevrimiçi
+  */
   client.user.setActivity("Bla Bla", {
     type: "LISTENING"
-    //LISTENING = DİNLİYOR
-    //WATCHING = İZLİYOR
-    //PLAYING = OYNUYOR
+   /* 
+    LISTENING = DİNLİYOR
+    WATCHING = İZLİYOR
+    PLAYING = OYNUYOR
+    STREAMING = YAYINDA
+    */
   });
   console.log(
     ` [${moment().format("YYYY-MM-DD HH:mm:ss")}] Oyun ismi ayarlandı!`
