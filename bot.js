@@ -125,3 +125,9 @@ client.on("error", e => {
 client.login(ayarlar.token);
 
 ///==========komutlar==========\\\
+
+
+
+client.on("guildMemberAdd", gamerwolf => {  
+  gamerwolf.setNickname('GW ・ İsim');
+  });
