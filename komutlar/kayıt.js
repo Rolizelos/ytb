@@ -40,14 +40,14 @@ let toplam = await db.fetch(`kayıttoplam_${message.author.id}`) + 1 || '0'
   db.push(`eskiad_${member.id}`, toplamaisim)                      // GAMERWOLF
   db.add(`toplamik_${member.id}`, 1)  // GAMERWOLF
   let embed = new Discord.MessageEmbed()
-  .setTitle('<a:yes:771479473815027724> ・ Başarılı')
+  .setTitle('Bu İşlem Başarılı')
   .setDescription(`
   **Kayıt Edilen Kullanıcı ・ ${member}** 
  **Verilen Rol ・ **<@&${codeariusver}>  \n
    **Kayıt Eden Yetkili ・** <@!${message.author.id}>
  **Bu Yetkili Toplamda ・ ${toplam} Kişi Kayıt Etmiş**
 `)
-  .setImage('https://cdn.discordapp.com/attachments/788851754564452393/788869865804529694/niecr-black-holes.webp')
+  .setImage('https://cdn.discordapp.com/attachments/788851754564452393/788872858671513640/350kb.gif')
 message.channel.send(embed)
   }  // GAMERWOLF
   if(kayıtlımı === 'evet'){
