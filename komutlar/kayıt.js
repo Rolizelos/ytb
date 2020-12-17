@@ -47,7 +47,7 @@ let toplam = await db.fetch(`kayıttoplam_${message.author.id}`) + 1 || '0'
    **Kayıt Eden Yetkili ・** <@!${message.author.id}>
  **Bu Yetkili Toplamda ・ ${toplam} Kişi Kayıt Etmiş**
 `)
-  .setImage('https://cdn.discordapp.com/attachments/788851754564452393/788872858671513640/350kb.gif')
+  .setImage('https://cdn.discordapp.com/attachments/788851754564452393/789021286932283392/350kb_1.gif')
 message.channel.send(embed)
   }  // GAMERWOLF
   if(kayıtlımı === 'evet'){
