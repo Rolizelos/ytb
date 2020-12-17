@@ -18,7 +18,7 @@ module.exports = client => {
   );
   client.user.setStatus("dnd");
 
-  client.user.setActivity("GamerWolfYouTube", {
+  client.user.setActivity("GamerWolf Videoda", {
     type: "PLAYING"
   
   });
